@@ -154,7 +154,7 @@ Have a wonderful day. Goodbye!
 | Help | `help` |
 | Exit | `bye` |
 
-## 🧠 How It Works
+##  working
 
 The chatbot follows a rule-based processing workflow.
 
@@ -167,7 +167,7 @@ The chatbot follows a rule-based processing workflow.
 7. **Handle unknown queries:** Displays a fallback response when no matching intent is found.
 8. **Continue or exit:** Keeps the conversation active until the user requests to leave.
 
-## 🗂️ JSON Dataset
+##  JSON Dataset
 
 The `chatbot_data.json` file separates chatbot content from the Python logic.
 
@@ -182,7 +182,7 @@ It contains:
 
 This structure makes it easier to update responses and add new intents without rewriting the main chatbot logic.
 
-## 🧩 Code Structure
+##  Code Structure
 
 | Function | Purpose |
 |---|---|
