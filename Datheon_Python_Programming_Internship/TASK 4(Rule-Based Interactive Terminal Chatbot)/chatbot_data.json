@@ -1,0 +1,110 @@
+{
+  "bot_name": "Nova",
+  "tagline": "Your Friendly Customer Support Assistant",
+  "responses": {
+    "greeting": [
+      "Hello! Welcome to Nova Store! How can I make your day better?",
+      "Hi there! I am Nova, your friendly assistant. What can I help you with?",
+      "Assalamualaikum! Welcome to Nova Store. How may I help you today?"
+    ],
+    "how_are_you": [
+      "I am doing great, thank you for asking! How are you?",
+      "I am always ready to help! What would you like to know?"
+    ],
+    "hours": [
+      "Our business hours are Monday to Friday, 9 AM to 6 PM. On Saturday, we are open from 10 AM to 4 PM. Sunday is our day off."
+    ],
+    "price": [
+      "Our prices depend on the product. Tell me the product name and I will guide you with the information available.",
+      "Looking for a great deal? Tell me which product you are interested in!"
+    ],
+    "delivery": [
+      "Good news! Standard delivery usually takes 3 to 5 business days. Delivery time may vary by location.",
+      "We aim to get your order to you as quickly as possible. Standard delivery usually takes 3 to 5 business days."
+    ],
+    "returns": [
+      "You can request a return within 7 days of delivery if the product is unused and in its original packaging. Please keep your proof of purchase."
+    ],
+    "payment": [
+      "We currently support Cash on Delivery (COD) and bank transfer. Choose whichever is convenient for you!"
+    ],
+    "products": [
+      "We are happy to help you explore our products! Tell me the product name or type you are looking for.",
+      "Looking for something special? Tell me what product you need and I will do my best to guide you."
+    ],
+    "order_tracking": [
+      "To check your order, keep your order number ready and contact the store support team. This demo chatbot is not connected to a live order database."
+    ],
+    "contact": [
+      "For an order-specific issue, please contact the store's customer support team and share your order number."
+    ],
+    "thanks": [
+      "You are very welcome! Is there anything else I can help you with?",
+      "Happy to help! Feel free to ask me another question."
+    ],
+    "goodbye": [
+      "Thank you for chatting with Nova Store! Have a wonderful day. Goodbye!",
+      "It was lovely helping you! Take care and visit us again soon!"
+    ],
+    "fallback": [
+      "Hmm, I did not quite understand that. Could you ask in a different way?",
+      "I am still learning! You can ask me about business hours, prices, delivery, returns, payments, products, or order tracking."
+    ]
+  },
+  "patterns": {
+    "how_are_you": [
+      "\\bhow are you\\b",
+      "\\bhow is it going\\b",
+      "\\bhow are things\\b"
+    ],
+    "hours": [
+      "\\b(hours|timings|opening time|closing time|business hours|working hours)\\b",
+      "\\b(when|what time).*(open|close|opening|closing)\\b",
+      "\\bare you open\\b",
+      "\\bwhen do you open\\b",
+      "\\bwhen do you close\\b"
+    ],
+    "price": [
+      "\\b(price|prices|cost|costs|expensive|cheap|pricing)\\b",
+      "\\bhow much\\b"
+    ],
+    "delivery": [
+      "\\b(delivery|shipping|shipment|dispatch|deliver|courier)\\b",
+      "\\bhow long.*(arrive|take|reach)\\b"
+    ],
+    "returns": [
+      "\\b(return|returns|refund|refunds|exchange|replace|replacement)\\b",
+      "\\breturn policy\\b"
+    ],
+    "payment": [
+      "\\b(payment|payments|pay|paid|cash on delivery|cod|bank transfer|debit card|credit card)\\b"
+    ],
+    "order_tracking": [
+      "\\b(track|tracking|order status|my order|where is my order|order number)\\b"
+    ],
+    "contact": [
+      "\\b(contact|customer support|support team|human agent|phone number|email address)\\b"
+    ],
+    "products": [
+      "\\b(product|products|item|items|available|availability|catalog|sell)\\b"
+    ],
+    "thanks": [
+      "\\b(thanks|thank you|thankyou|thx|appreciate it)\\b"
+    ],
+    "greeting": [
+      "\\b(hi|hello|hey|salam|assalamualaikum|good morning|good afternoon|good evening)\\b"
+    ]
+  },
+  "exit_commands": [
+    "bye",
+    "goodbye",
+    "exit",
+    "quit",
+    "see you"
+  ],
+  "help_commands": [
+    "help",
+    "menu",
+    "options"
+  ]
+}

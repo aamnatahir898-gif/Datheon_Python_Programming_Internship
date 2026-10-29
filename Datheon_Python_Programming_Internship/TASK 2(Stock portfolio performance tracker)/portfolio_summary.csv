@@ -1,0 +1,2 @@
+timestamp,ticker,company,buy_price,quantity,current_price,invested_capital,market_value,profit_loss,profit_loss_percent,portfolio_invested_total,portfolio_market_total,portfolio_profit_loss_total,portfolio_return_percent
+2026-10-28T12:01:45+05:00,AAPL,Apple Inc.,200.0,10,230.0,2000.0,2300.0,300.0,15.0,2000.0,2300.0,300.0,15.0
