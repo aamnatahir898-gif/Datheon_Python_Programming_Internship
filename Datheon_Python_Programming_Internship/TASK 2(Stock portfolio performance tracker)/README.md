@@ -32,7 +32,7 @@ Stock-Portfolio-Tracker/
 
 **Note:** `portfolio_summary.csv` is created automatically when the program saves its first portfolio report.
 
-## 🛠 Requirements
+##  Requirements
 
 - Python 3.x
 - A stock ticker dataset named `stock_tickers.csv`
