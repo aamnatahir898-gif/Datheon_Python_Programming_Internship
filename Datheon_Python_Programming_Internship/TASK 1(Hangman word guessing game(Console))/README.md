@@ -1,10 +1,10 @@
-# Hangman Word Guessing Game 🎮
+# Hangman Word Guessing Game 
 
 A simple, interactive, terminal-based Hangman game built with Python 3. Guess the hidden English word one letter at a time. You have 6 incorrect guesses to figure out the word before the game ends.
 
-## ✨ Features
+##  Features
 
--  Random word selection using `random.choice()`
+-  Random word selection using random.choice()
 -  ASCII Hangman drawing with 7 stages
 -  Hidden word displayed using underscores
 -  Correct guesses reveal matching letters
@@ -16,7 +16,7 @@ A simple, interactive, terminal-based Hangman game built with Python 3. Guess th
 -  Loads words from `words.txt`
 -  Uses a built-in fallback word list if `words.txt` is missing or empty
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Hangman-Game/
@@ -89,7 +89,7 @@ py hangman.py
 
 **Note:** Invalid input and previously guessed letters do not reduce the remaining attempts.
 
-## 🧩 Code Structure
+##  Code Structure
 
 | Function | Description |
 |---|---|
